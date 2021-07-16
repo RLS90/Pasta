@@ -23,3 +23,9 @@ resource "azurerm_resource_group" "rg-hello-azure" {
   name     = "GitHubActions-RG"
   location = "Australia Southeast"
 }
+
+resource "azurerm_resource_group" "rg-hello-azure" {
+  name     = "GitHubAction2-RG"
+  location = "Australia Southeast"
+}
+
