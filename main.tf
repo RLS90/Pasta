@@ -19,12 +19,12 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "rg-hello-azure" {
+resource "azurerm_resource_group" "resourcegroup1" {
   name     = "GitHubActions2-RG"
   location = "Australia Southeast"
 }
 
-resource "azurerm_resource_group" "rg-hello-azure" {
+resource "azurerm_resource_group" "resourcegroup2" {
   name     = "GitHubActions3-RG"
   location = "Australia Southeast"
 }
