@@ -4,7 +4,7 @@ terraform {
     resource_group_name  = "RemoteState"
     storage_account_name = "auauauremotestate123"
     container_name       = "remstate"
-    key                  = "mystate5.tfstate"
+    key                  = "mystate6.tfstate"
   }
 
   required_providers {
@@ -20,12 +20,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg-hello-azure" {
-  name     = "GitHubActions-RG"
+  name     = "GitHubActions2-RG"
   location = "Australia Southeast"
 }
-
-resource "azurerm_resource_group" "rg-hello-azure" {
-  name     = "GitHubAction2-RG"
-  location = "Australia Southeast"
-}
-
